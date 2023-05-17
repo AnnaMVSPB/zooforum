@@ -1,0 +1,73 @@
+.navbarDev{
+background-color: cornflowerblue;
+
+}
+a{
+    color:black !important;
+    background-color: cadetblue !important;
+    border-color: cadetblue !important;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: beige;
+}
+.animalCard{
+    width: 300px;
+    height: 550px;
+    border: 3px solid blue;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formAdd{
+    background-color: beige; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.imgDiv{
+   width: 250px;
+height: 270px;
+}
+.main{
+    background: url(/img/zoo.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainH1{
+    color: aqua;
+    background-color: aliceblue;
+    width: 70vw;
+    border-radius: 15px;
+  padding: 10px;
+}
+input{
+    width: 200px;
+    border-radius: 10px;
+    background-color:rgb(139, 239, 240);
+    margin-top: 15px !important;
+}
+button{
+    max-width: 200px;
+    border-radius: 10px;
+    background-color:cadetblue;
+    margin-top: 15px !important;
+}
+.cardButton{
+    display: flex;
+    justify-content: space-around;
+}
