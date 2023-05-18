@@ -6,7 +6,7 @@ const sessionConfig = require('./config/sessionConfig');
 
 const app = express();
 
-const PORT = 3000;
+const { PORT } = process.env || 4000;
 
 serverConfig(app);
 app.use(session(sessionConfig));
